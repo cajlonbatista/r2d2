@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node ./build/index.js",
-    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules index.ts"
+    "start": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules index.ts"
   },
   "dependencies": {
     "@typeit/discord": "^4.0.9",
